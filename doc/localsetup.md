@@ -27,6 +27,7 @@ You need to download the gitsync scripts and set it up locally as described belo
   - Go to `https://windows.php.net/download/` and download the non-thread safe Zip file of PHP 8.1(?).
   - Unzip the folder into a folder of your choice.
   - Add the folder to the `Path` variable of your system via 'Edit System Environment Variables'.
+  - In the top level of the folder, rename the file `php.ini-developement` to `php.ini`.
 
   You will need to enable a PHP extension. On the command line, run `php -i`. This will display pages of information but near the top there should be a line similar to `Loaded Configuration File => C:\Program Files\php-x64\php.ini`. Open the shown file as an administrator and search for `;extension=curl`. Remove the semi-colon from this line and save.
 
